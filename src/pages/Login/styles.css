@@ -1,0 +1,58 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.paleta{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+.login {
+    max-width: 1200px;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    justify-content: space-between;
+}
+
+.img {
+    width: 300px;
+}
+
+.main-txt {
+    font-weight: 700;
+    font-size: 30px;
+    color: #333;
+}
+
+.faceButton {
+    background: #3b5998;
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    transition: background 1s;
+}
+.faceButton:hover{
+    background: #000000;
+}
+
+.main-termos {
+    color: #41414d;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
