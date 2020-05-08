@@ -56,7 +56,7 @@ class Login extends React.Component {
             </p>
 
           <FacebookLogin
-            appId="2663282557276084"
+            appId="238340337257188"
             callback={this.getToken.bind(this)}
             render={renderProps => (
               <button className={"faceButton"} onClick={renderProps.onClick}  >
