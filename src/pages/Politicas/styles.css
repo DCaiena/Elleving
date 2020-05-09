@@ -1,0 +1,35 @@
+.politics-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    width: 100%;
+}
+.text-container{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+    justify-content: space-around;
+}
+.text-container p{
+    font-size: 16px;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background: #0094cc;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.header img{
+    width: 200px;
+    margin: 10px;
+}

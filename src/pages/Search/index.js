@@ -16,7 +16,7 @@ import {
   IconButton,
 } from '@material-ui/core'
 import { FirstPage, LastPage, KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons';
-import { isAuthenticated } from '../../services/auth'
+import { isAuthenticated, permantenToken } from '../../services/auth'
 import axios from 'axios'
 import './styles.css'
 
@@ -52,8 +52,8 @@ class Search extends React.Component {
   search(e) {
     e.preventDefault()
     this.setState({ loading: true })
-    let accessToken = localStorage.getItem('acessToken')
-    const url = `https://graph.facebook.com/search?type=adinterest&q=[${this.state.pesquisa}]&limit=10000&locale=en_US&access_token=${accessToken}`
+    // let accessToken = localStorage.getItem('acessToken')
+    const url = `https://graph.facebook.com/search?type=adinterest&q=[${this.state.pesquisa}]&limit=10000&locale=en_US&access_token=${permantenToken}`
     axios.get(url).then(resp => {
       let { data: rows } = resp.data
       this.setState({ rows, found: rows.length })

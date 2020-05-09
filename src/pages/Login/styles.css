@@ -37,16 +37,20 @@
 
 .faceButton {
     background: #3b5998;
-    width: 400px;
-    height: 80px;
-    border-radius: 10px;
+    /* width: 400px; */
+    /* height: 80px; */
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 100px;
     color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-    transition: background 1s;
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+    transition: background 0.5s;
 }
 .faceButton:hover{
-    background: #000000;
+    background: #0277bd;
 }
 
 .main-termos {

@@ -1,5 +1,5 @@
 import axios from 'axios'
-export const permantenToken = 'AADYxO8jSuQBAB5bPHM5T2BGA6uLncvoNyogPWXkhR8dn0ZBnZCS5PBvPboZBvVgG2pgsbZCDkfUl4VVoRyWZBgWI6V1nylVr9gIztseFHSPtRJNjsZBW6Q9AH8J4gOPscuCXZCP7Jr7hfavOniT8Ikqm3saZAgevESHAw3c0vScXwZDZD'
+export const permantenToken = 'EAAHjCffE3yEBAOHHiWa0TCjcVK1SbRYKVsOwtF8wo0V6ygC9fAt0ER9iPbJcG8YaR16MRMZB1tZCTR2QY1DzNmSo0Kzs3rKRNUo7MuxvyYEW7ooaT4DBDHw5phx0X6D0ocTbKqCLqDR48MGTXtINihXLhxuiTibIKrWtcgBQZDZD'
 export const isAuthenticated = async () => {
     let accessToken = localStorage.getItem('acessToken')
     try {

@@ -18,16 +18,17 @@
     font-size: 18px;
 }
 
-.header{
+.header-search{
     display: flex;
     flex-direction: row;
     background: #0094cc;
     width: 100%;
     margin-top: 20px;
     justify-content: space-around;
+    align-items: center;
 }
 
-.header img{
+.header-search img{
     width: 200px;
     margin: 10px;
 }

@@ -15,7 +15,7 @@ const Header = (props) => {
   }
 
   return (
-    <header className="header">
+    <header className="header-search">
       <img src={logoWhite} alt=""/>
       <Button 
       onClick={logoutApp}
